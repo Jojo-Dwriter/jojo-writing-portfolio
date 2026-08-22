@@ -1,0 +1,181 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f2ff;
+    color: #333;
+}
+
+header {
+    background-color: #6c4ab6;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #6c4ab6;
+}
+
+h3 {
+    color: #8a63c7;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+li {
+    margin: 10px 0;
+}
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #6c4ab6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: white;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #6c4ab6;
+}
+
+.hero h2 {
+    font-size: 25px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6c4ab6;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #8a63c7;
+}
+.story {
+    padding: 25px;
+    margin: 20px 0;
+    background-color: #f7f2ff;
+    border-radius: 15px;
+}
+
+.story h3 {
+    font-size: 24px;
+}
+
+.story .button {
+    margin-top: 5px;
+}
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    max-width: 600px;
+    margin: 15px auto;
+}
+/* Make the website easier to use on phones */
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero h2 {
+        font-size: 21px;
+    }
+
+    section {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+
+}
+.book-cover {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.story {
+    text-align: center;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.story:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.book-cover {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+footer {
+    background-color: #6c4ab6;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
